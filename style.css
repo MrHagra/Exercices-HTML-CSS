@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {font-family: "Roboto";src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+* {
+    margin: 0px;
+    font-family: "Roboto",fantasy;
+    overflow: unset;
+}
+header {
+    background-color: #ce0033 ;
+    color: white;
+  padding: 35px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+section {
+ display: flex;
+ justify-content: center;
+
+}
+
+div {
+line-height: -1px;
+text-align: center;
+}
+
+img {
+    width: 400px ;
+
+}
+
+footer {
+  background-color: grey;
+  color: white;
+ position: relative;
+  padding: 35px;
+  text-align: right;
+  font-size: 38px;
+  top: 673px;
+}
+
+footer > p {
+
+}
+a
+{
+
+}
