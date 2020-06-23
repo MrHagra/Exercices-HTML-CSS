@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style type="text/css">
+*
+{
+  margin: 0%;
+  padding: 0%;
+  font-family: comic sans ms;
+}
+nav
+{
+    background:white ;
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+nav ul
+{
+  list-style-type: none;
+}
+nav ul li
+{
+  float: left;
+text-align: center;
+width: 25px;
+}
+nav ul:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a
+{
+  display: block;
+  text-decoration: none;
+  color : black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+nav a:hover
+{
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+a
+{
+  color: white;
+}
+.sous
+{
+  display:none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white
+}
+nav > ul li:hover .sous
+{
+  display:block;
+}
+.sous li
+{
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+.sous a
+{
+  padding: 10px;
+  border-bottom: none;
+}
+.sous a:hover
+{
+  border-bottom: none;
+  background-color: rgba(200, 200, 200, 0.1);
+}
+.deroulant > a:after
+{
+  content: "▼";
+  font-size: 12px;
+}
+.sous
+{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+.image
+{
+  width: 112px;
+  left: 326px;
+  top: -45px;
+  position: relative;
+}
+
+nav ul li
+{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.gif
+{
+  position: absolute;
+  top: 300px;
+  left: 370px;
+  width: 800px;
+}
+
+  </style>
+   <body>
+     <h1>WEAPON-ZONE.FR</h1>
+     <img class= "image" src="https://www.logolynx.com/images/logolynx/c4/c475325c3cc518511b70e7b57adc4152.png" alt="AK-47">
+     <img class= "gif" src="https://i.pinimg.com/originals/d4/b4/ab/d4b4ab9b7c426edad5b115d4e950c84d.gif" alt "LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL">
+<nav>
+  <ul>
+    <li class="deroulant"><a href="#">Armes</a>
+      <ul class="sous">
+        <li><a href="#">Fusil d'assaut</a></li>
+        <li><a href="#">pistolet-mitrailleur</a></li>
+        <li><a href="#">Fusil de précision</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="#">Plus</a>
+      <ul class="sous">
+        <li><a href="#">Donation</a></li>
+        <li><a href="#">Sites externes</a></li>
+        <li><a href="https://google.com">GOOGLE</a></li>
+        </ul>
+    </li class=plus>
+    <li> <a href="#">Contact</a> </li>
+        <li> <a href="#">A propos</a> </li>
+
+</nav>
+  </body>
+</html>
