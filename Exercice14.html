@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Les selecteurs complexes</title>
+    <meta charset="utf-8">
+	<style type="text/css">
+	.article p
+	{
+	  margin-left: 20px;
+	}
+	h2 + p
+	{
+	  background: yellow;
+	}
+	h2 ~ p
+	{
+	  border: black solid 1px;
+	}
+	li > p
+	{
+	  color: green;
+	}
+
+	</style>
+</head>
+<body>
+     <div class="article">
+		 <h2>Titre1</h2>
+		 <ul>
+			<li>Item1:<p>resumé item1..........</p></li>
+			<li>Item2:<p>resumé item2.......</p></li>
+			<li>Item3:<p>resumé item3........</p></li>
+		 </ul>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+     	<h2>Titre2</h2>
+     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+     	<div class="exemple">
+     		<h2>exemple1</h2>
+     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+     	</div>
+     </div>
+</body>
+</html>
